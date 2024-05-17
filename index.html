@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <div id="header">
+        <div id="logo-wrapper">
+            <img id="logo" src="logo.png" alt="Tunç Emlak">
+
+        </div>
+
+        <div id="searchbox-container">
+            <input type="text" name="" id="searchbox" placeholder="Ara..">
+            <button id="searchbox-button" type="submit">
+                <img id="icon-search" src="icon_search.svg">
+            </button>
+        </div>
+        <div id="motto-wrapper">
+            <div id="motto">Gayrimenkulünüze Özen, Size Güven Veririz</div>
+        </div>
+    </div>
+    <div id="content">
+        <div id="navbar">
+            <div id="filter">
+                <!-- <div class="filter-opt">
+                    <select name="il" id="il">
+                        <option value="eskisehir">Eskişehir</option>
+                        <option value="ankara">Ankara</option>
+                        <option value="bilecik">Bilecik</option>
+                    </select>
+                </div> -->
+                <div id="filter-title">
+                    <h3>Filtrele</h3>
+                </div>
+                <div class="filter-opt">
+                    <div class="filter-opt-title">
+                        <h4>İlçe:</h4>
+                    </div>
+                    <div class="filter-opt-form">
+                        <div id="ilceCheckboxes">
+                            <label><input type="checkbox" name="ilce[]" value="odunpazari">Odunpazarı</label>
+                            <label><input type="checkbox" name="ilce[]" value="tepebasi">Tepebaşı</label>
+                            <label><input type="checkbox" name="ilce[]" value="alpu">Alpu</label>
+                            <label><input type="checkbox" name="ilce[]" value="beylikova">Beylikova</label>
+                            <label><input type="checkbox" name="ilce[]" value="cifteler">Çifteler</label>
+                            <label><input type="checkbox" name="ilce[]" value="gunyuzu">Günyüzü</label>
+                            <label><input type="checkbox" name="ilce[]" value="han">Han</label>
+                            <label><input type="checkbox" name="ilce[]" value="inonu">İnönü</label>
+                            <label><input type="checkbox" name="ilce[]" value="mahmudiye">Mahmudiye</label>
+                            <label><input type="checkbox" name="ilce[]" value="mihalgazi">Mihalgazi</label>
+                            <label><input type="checkbox" name="ilce[]" value="mihaliccik">Mihalıççık</label>
+                            <label><input type="checkbox" name="ilce[]" value="saricakaya">Sarıcakaya</label>
+                            <label><input type="checkbox" name="ilce[]" value="seyitgazi">Seyitgazi</label>
+                            <label><input type="checkbox" name="ilce[]" value="sivrihisar">Sivrihisar</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-opt">
+                    <div class="filter-opt-title">
+                        <h4>Tür:</h4>
+                    </div>
+                    <div class="filter-opt-form">
+                        <div id="ilceCheckboxes">
+                            <label><input type="checkbox" name="ilce[]" value="arsa">Arsa</label>
+                            <label><input type="checkbox" name="ilce[]" value="konut">Konut</label>
+                            <label><input type="checkbox" name="ilce[]" value="is-yeri">İş Yeri</label>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="toggleButton" class="material-symbols-outlined" onclick="toggleNavbar();">
+                arrow_forward_ios
+            </div>
+        </div>
+        <div id="section">
+            <div id="cards">
+
+                <div class="card">
+                    <div class="card-row">
+                        <div class="card-image-wrapper">
+                            <img class="card-image" src="img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-row">
+                        <div class="card-title">133m2 3+1 Daire</div>
+                        <div class="card-details">Odunpazarı / Eskişehir</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-row">
+                        <div class="card-image-wrapper">
+                            <img class="card-image" src="img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-row">
+                        <div class="card-title">133m2 3+1 Daire</div>
+                        <div class="card-details">Odunpazarı / Eskişehir</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-row">
+                        <div class="card-image-wrapper">
+                            <img class="card-image" src="img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-row">
+                        <div class="card-title">133m2 3+1 Daire</div>
+                        <div class="card-details">Odunpazarı / Eskişehir</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-row">
+                        <div class="card-image-wrapper">
+                            <img class="card-image" src="img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-row">
+                        <div class="card-title">133m2 3+1 Daire</div>
+                        <div class="card-details">Odunpazarı / Eskişehir</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-row">
+                        <div class="card-image-wrapper">
+                            <img class="card-image" src="img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-row">
+                        <div class="card-title">133m2 3+1 Daire</div>
+                        <div class="card-details">Odunpazarı / Eskişehir</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-row">
+                        <div class="card-image-wrapper">
+                            <img class="card-image" src="img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-row">
+                        <div class="card-title">133m2 3+1 Daire</div>
+                        <div class="card-details">Odunpazarı / Eskişehir</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-row">
+                        <div class="card-image-wrapper">
+                            <img class="card-image" src="img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-row">
+                        <div class="card-title">133m2 3+1 Daire</div>
+                        <div class="card-details">Odunpazarı / Eskişehir</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-row">
+                        <div class="card-image-wrapper">
+                            <img class="card-image" src="img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-row">
+                        <div class="card-title">133m2 3+1 Daire</div>
+                        <div class="card-details">Odunpazarı / Eskişehir</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-row">
+                        <div class="card-image-wrapper">
+                            <img class="card-image" src="img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-row">
+                        <div class="card-title">133m2 3+1 Daire</div>
+                        <div class="card-details">Odunpazarı / Eskişehir</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-row">
+                        <div class="card-image-wrapper">
+                            <img class="card-image" src="img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-row">
+                        <div class="card-title">133m2 3+1 Daire</div>
+                        <div class="card-details">Odunpazarı / Eskişehir</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
